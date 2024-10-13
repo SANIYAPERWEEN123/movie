@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial , sans-serif;
+}
+body{
+    background-image: url(image\ 2.jpg );
+}
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#header .logo{
+    color: rgba(234, 22, 22, 0.953);
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+#header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#header ul li{
+    list-style: none;
+    margin-left:20px;
+    font-size: 14px
+    
+}
+
+#header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: rgba(247, 193, 193, 0.652)
+    
+}
+#header ul li:hover a{
+    color: rgba(242, 22, 22, 0.652);
+}
+#headingg{
+    position: relative;
+    text-align: center;
+    color:dark rgba(146, 11, 11, 0.652);
+    top: 250px;
+}
+#paragraphh{
+    position: relative;
+    text-align: center;
+    color: dark rgba(146, 11, 11, 0.652);;
+    top:280px;
+
+}
+.buttonn1{
+    margin-left: 600px;
+    margin-top: 320px;
+    width: 200px;
+    height: 25px;
+    font-size: 17px;
+    background-color: transparent;
+    text-align:left ;
+    border: 2px solid dark rgba(146, 11, 11, 0.652);;
+    
+
+
+    
+}
+.buttonn2{
+    color: dark rgba(146, 11, 11, 0.652);;
+    background-color: rgb(204, 21, 21);
+    font-size: 17px;
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+transition: 0.3s;
+}
+.buttonn2:hover{
+    background-color: rgb(21, 140, 67);
+}
+#first-heading{
+      color: dark rgba(146, 11, 11, 0.652);;
+     margin-top: 250px;
+}
+.bollywood{
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    left:25px;
+}  
+.animal{
+    position: relative;
+    height: 280px;
+    width: 240px;
+    border: 2px solid black;
+    border-radius: 9px;
+    left: 18px;
+}
+.veerzara{
+    position: relative;
+    height: 280px;
+    width: 240px;
+    border: 2px solid black;
+    border: 9px;
+    left:55px ;
+    
+}
+.pathan{
+    position: relative;
+    height: 280px;
+    width: 240px;
+    border: 2px solid black;
+    border-radius: 9px;
+    left: 90px;
+
+}
+.sholay{
+    position: relative;
+    height: 280px;
+    width: 240px;
+    border: 2px solid black;
+    border-radius: 9px;
+    left: 130px;
+}
+.fail{
+     position: relative;
+     height: 280px;
+     width: 240px;
+     border: 2px solid black;
+     border-radius: 9px;
+     left: 170px;
+}
+.second-heading{
+    color: dark rgba(146, 11, 11, 0.652);;
+    margin-top: 50px;
+}
+.hollywood{
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    left: 30px;
+}
+
+
+.the dark tower{
+    border: 2px solid black;
+    border-radius: 9px;
+    
+}
+.avatar{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 9px;
+    left: 35px;
+}
+.day{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 9px;
+    left: 75px;
+}
+.move4{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 9px;
+    left: 120px;
+}
+.move5{
+    position: relative;
+    height: 280px;
+    width: 240px;
+    border: 2px solid black;
+    border-radius: 9px;
+    left:170px ;
+}
